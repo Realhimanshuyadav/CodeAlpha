@@ -4,3 +4,12 @@ __pycache__/
 *$py.class
 .env
 .vscode/
+
+# Generated model and training output files
+emotion_model_comparison.csv
+ravdess_mfcc_features.npz
+
+# Local experiment output
+*.png
+*.jpg
+*.jpeg
