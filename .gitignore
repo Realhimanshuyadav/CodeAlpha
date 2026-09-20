@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated model and training output files
+*.keras
+emotion_model_comparison.csv
+ravdess_mfcc_features.npz
+
+# Local experiment output
+*.png
+*.jpg
+*.jpeg
