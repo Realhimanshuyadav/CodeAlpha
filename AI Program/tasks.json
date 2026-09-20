@@ -1,0 +1,14 @@
+[
+    {
+        "description": "Learn DSA",
+        "completed": false
+    },
+    {
+        "description": "Play Cricket",
+        "completed": false
+    },
+    {
+        "description": "Complete Intership",
+        "completed": false
+    }
+]
