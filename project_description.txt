@@ -1,0 +1,40 @@
+TASK 3: HANDWRITTEN CHARACTER RECOGNITION
+
+Objective:
+Identify handwritten characters or alphabets. This implementation focuses on handwritten digits 0-9 using the MNIST dataset.
+
+Approach:
+Image processing and deep learning using a Convolutional Neural Network (CNN).
+
+Dataset:
+MNIST contains grayscale images of handwritten digits. Each image is represented as a 28 × 28 pixel image.
+
+Main Steps:
+1. Load the MNIST dataset.
+2. Normalize pixel values from 0-255 to 0-1.
+3. Reshape images for CNN input.
+4. Build the CNN model.
+5. Train the model.
+6. Evaluate the model on test data.
+7. Save the trained model.
+8. Create a graphical interface.
+9. Allow the user to draw a digit.
+10. Preprocess the drawn image.
+11. Predict the digit and display confidence.
+
+CNN Architecture:
+Input: 28 × 28 × 1
+Conv2D: 32 filters, 3 × 3
+MaxPooling: 2 × 2
+Conv2D: 64 filters, 3 × 3
+MaxPooling: 2 × 2
+Flatten
+Dense: 128 neurons
+Dropout: 0.3
+Output: 10 neurons with Softmax
+
+Future Scope:
+- Extend from digits to alphabets using EMNIST.
+- Recognize complete handwritten words.
+- Recognize sentences using sequence models such as CRNN.
+- Add web/mobile deployment.
